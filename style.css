@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Couleur de fond de l'arrière-plan */
+}
+
+.container {
+    text-align: center;
+}
+
+.animated-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff; /* Couleur du texte */
+    animation: animateText 2s infinite alternate; /* Animation du texte */
+}
+
+@keyframes animateText {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
