@@ -1,37 +1,39 @@
-
+<!DOCTYPE html>
 <html>
-        <head>
-                <meta charset="UTF-8"/>
-                <title>Exercice4 </title>
-        </head>
-        
+<head>
+    <title>Tableau avec une largeur de 100%</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
 <body>
 
-
-<table  border="1" >
-  <tr>
-    <td rowspan="6">Case 1</td>
-    <td >Case 2</td>
-  </tr>
-  <tr>
-    <td rowspan="6">Case 1</td>
-    <td >Case 2</td>
-  </tr>
- <tr>
-    <td rowspan="6">Case 1</td>
-    <td >Case 2</td>
-  </tr>
- <tr>
-    <td rowspan="6">Case 1</td>
-    <td >Case 2</td>
-  </tr>
-   
+<table>
+    <tr>
+        <th>Prénom</th>
+        <th>Nom</th>
+        <th>Adresse</th>
+        <th>Date de Naissance</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>30</td>
+        <td>123 Rue Principale</td>
+    </tr>
+    <tr>
+        <td>Jane Smith</td>
+        <td>25</td>
+        <td>456 Avenue Secondaire</td>
+    </tr>
 </table>
 
-
 </body>
-
-
-    
-
 </html>
