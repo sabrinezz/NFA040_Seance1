@@ -12,6 +12,46 @@
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cellule de tableau avec largeur en pourcentage</title>
+    <style>
+        table {
+            width: 50%; /* Largeur de 50% de l'écran */
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .wide-cell {
+            width: 70%; /* Largeur de la cellule à 70% de la largeur du tableau */
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Colonne 1</th>
+        <th>Colonne 2</th>
+        <th>Colonne 3</th>
+    </tr>
+    <tr>
+        <td>Donnée 1</td>
+        <td class="wide-cell">Donnée 2 avec une largeur de 70%</td>
+        <td>Donnée 3</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
 
 
 <table border="1">
